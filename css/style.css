@@ -1,0 +1,141 @@
+body{
+    background-color: black;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgba(54, 37, 18, 0.918);
+    
+}
+.fruit{
+    display: flex;
+    justify-content: center;
+}
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    }
+.qua{
+    height: 350px;
+    width: 250px;
+    background-color: white;
+    margin: 25px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid orange;
+    margin: 15px;
+    
+}
+#quaa{
+    
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: white;
+    border: solid ;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 2px;
+    align-items: center;
+    color: black;
+    
+}
+#quaa1{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: black;
+    margin-right: 15px;
+    margin-left: 15px;
+    align-items: center;
+    color: white;
+   
+    
+}
+.carousel{
+    width: 800px;
+    height: 100px;
+}
+#text01{
+    width: 300px;
+}
+.il{
+    
+    width: 100%;
+    height: 800px;
+    padding: 5%;
+}
+.primiqua{
+    display: flex;
+    justify-content: center;
+}
+img{
+    
+    height: 150px;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+    
+}
+
+.carro{
+    height: 250px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.car{
+    width: 100%;
+
+}
+.ultima{
+    background-image: url('../images/c.png');
+    
+background-size: contain;
+    background-repeat: no-repeat;
+        background-size: cover;
+
+}
+.prima{
+    background-image: url('../images/lol.jpg');
+
+    background-size: contain;
+        background-repeat: no-repeat;
+            background-size: cover;
+}
+.seconda{
+    background-image: url('../images/teken.jpg');
+    
+    background-size: contain;
+        background-repeat: no-repeat;
+            background-size: cover;
+}
+.terza{
+    background-image: url('../images/last.jpg');
+    
+    background-size: contain;
+        background-repeat: no-repeat;
+            background-size: cover;
+}
+
+footer{
+    margin-top: 20px;
+    height: 80px;
+    width: 100%;
+    background-color: gray;
+}
