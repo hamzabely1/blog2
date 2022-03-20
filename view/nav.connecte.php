@@ -2,11 +2,32 @@
 
 
 
+<?php 
+    session_start();
+    require_once 'config.php'; 
+    if(!isset($_SESSION['user'])){
+        header('Location:login.php');
+        die();
+    }
+
+    $req = $bdd->prepare('SELECT * FROM utilisateurs WHERE token = ?');
+    $req->execute(array($_SESSION['user']));
+    $data = $req->fetch();
+   
+?>
+
+
+
+
+
+
+
+
 
 
 <nav class="navbar navbar-expand-lg navbar-light bg-danger">
         <div class="container-fluid">
-          <a class="navbar-brand" href="home.php">game <br> over<span
+          <a class="navbar-brand" href="homeAdmin.php">game <br> over<span
               style='font-size:20px;'></span>
    
           </a>
@@ -23,6 +44,7 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
   
               <li class="nav-item">
+                <a class="nav-link" href="./crud.php">article</a>
               </li>
               <li class="nav-item dropdown">
                 
@@ -36,7 +58,10 @@
   
             </ul>
   
-            <a href="./login.php"> login<span style='font-size:40px;'>&#129494;&#127997;</span></a>
-          </div>
+            <div class="text-center">
+                        <a href="deconnexion.php" class="btn btn-dark btn-lg">Déconnexion</a>
+                    
+                </div>          </div>
         </div>
       </nav>
+      <h1 class="p-5" style="color: white;">Bonjour <?php echo $data['pseudo']; ?> !</h1>

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -22,61 +23,39 @@
       rel="stylesheet">
       <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
+<body style="color: white;">
+<?php
+require('nav.php');
 
+
+?>
 <?php
 
-require('nav.connecte.php')
+
+require('config.php')
 ?>
 
 
 
-<a href="ajute.php"><button  type="button" class="btn btn-light">Aggiu</button></a>
+
+
+<form action="">
+
+
+<label for="titre">titre</label>
+<input type="text" name="titre">
+
+<label for="description">description</label>
+<input type="text">
+    </form>
 
 
 
 
 
-
-
-<div class="flex">
-
-
-<div class="container">
-  <div class="row flex">
-    <div class="qua col-md-3 d-flex flex-column prima">
-        <br>
-        
-    </div>
-    
-    <div class="qua col-md-3 d-flex flex-column seconda">
-      <br>
-
-        <br>
-    </div>
-    <div class="qua col-md-3 d-flex flex-column terza">
-
-        <br>
-    </div>
-    <div class="qua col-md-3 d-flex flex-column ultima">
-        <br>
-    </div>
-</div>
-    </div>
-  </div>
-
-
-
-
-  
-
-
-
-  <script
+    <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-
-    
 </body>
 </html>

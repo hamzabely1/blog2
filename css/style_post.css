@@ -1,0 +1,45 @@
+body{
+    background-color: #000000;
+}
+header{
+    background-color: #000000;
+    background-image: url("bgflou.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+a{
+    color: white !important;
+}
+.marge{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.btn-danger{
+    background-color: #8D0155 !important;
+    border: #8D0155 !important;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #000000 !important;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    color: white !important;
+  }
+  .btn-primary{
+    background-color: #044750 !important;
+    border: #044750 !important;
+}
+.bg-black{
+    background-color: #00000080 !important;
+}
+hr{
+    margin: 0em;
+    height: 0.5em;
+    color: white;
+    opacity: 0.25;
+}

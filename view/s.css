@@ -1,0 +1,8 @@
+.savoir{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    background-color: orange;
+    
+}

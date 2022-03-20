@@ -139,3 +139,12 @@ footer{
     width: 100%;
     background-color: gray;
 }
+.savoir{
+    height: 50px;
+    width: 100px;
+background-color: black;
+color: black;
+border-radius: 10px;
+
+
+}
