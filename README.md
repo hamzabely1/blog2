@@ -23,5 +23,5 @@ trello:
 
 
 
-![image](https://user-images.githubusercontent.com/96245936/159189918-4c42dc0c-5202-416a-af22-d52657ab4a94.png)
+![image](https://user-images.githubusercontent.com/96245936/159250908-8887035a-2f26-45d2-a8e2-e40c7d56cdca.png)
 
